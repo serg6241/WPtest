@@ -16,5 +16,5 @@
 
 /bin/tar czvf /var/www/shared-$date.tar.gz /var/www/html/wp-content/uploads/ /var/www/html/wp-content/upgrade /var/www/html/wp-config.php
 
-aws s3 cp /var/www/shared-$date.tar.gz s3://wordpres-shared
-aws s3 cp /var/www/html/$db_name-$date.sql s3://wordpres-shared
+aws s3 cp /var/www/shared.tar.gz s3://wordpres-shared
+aws s3 cp /var/www/html/wordpress.sql s3://wordpres-shared
