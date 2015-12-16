@@ -53,6 +53,15 @@ Unless otherwise specified, all the theme files, scripts and images are licensed
 
 ## Change Log
 
+**= 3.0.2 =**
+
+* Fixed problems with top navigation on mobile.
+
+**= 3.0.1 =**
+
+* Prepared theme for WordPress 4.4
+* Removed depractated wp_title fallback
+
 **= 3.0 =**
 
 * Removed Options Framework in favor to WordPress Customizer. This update might break Child Themes.
